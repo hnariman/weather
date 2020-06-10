@@ -16,7 +16,7 @@ class App extends React.Component {
       const longitude = position.coords.longitude;
       const key = "225a713f3a21409c916a8cace794e454";
       fetch(
-        `http://api.weatherbit.io/v2.0/forecast/daily?lat=${latitude}&lon=${longitude}&days=5&key=${key}`
+        `https://api.weatherbit.io/v2.0/forecast/daily?lat=${latitude}&lon=${longitude}&days=5&key=${key}`
       )
         .then((res) => res.json())
         .then((data) => {
