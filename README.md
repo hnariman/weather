@@ -8,4 +8,4 @@ Deployment is made with `gh-pages` npm package.
 # Tech Used:
 - React.js
 - create-react-app
-<img src="https://github.com/hnariman/weather/blob/master/weather.png" width=800px/>
+<img src="https://github.com/hnariman/weather/blob/master/weather.png" width=600px/>
